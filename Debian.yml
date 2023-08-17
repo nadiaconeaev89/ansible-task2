@@ -30,7 +30,7 @@
 - name: Move Template Files
   shell: mv /var/www/html/2124_vertex/* /var/www/html/
   args:
-    creates: /var/www/html/index.html 
+    creates: /var/www/html/about.html 
 
 - name: Recursively change ownership of a directory
   file:
